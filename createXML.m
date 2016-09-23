@@ -2,7 +2,7 @@ function createXML(ytaxa)
 
 %%% open an empty xml file
 global fileID
-fileID = fopen('test.xml','wt');
+fileID = fopen('generatedXML.xml','wt');
 
 %%% write the default opening txt
 fprintf(fileID, '<?xml version="1.0" encoding="UTF-8"?>\n');

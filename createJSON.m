@@ -2,7 +2,7 @@ function createJSON(ytaxa)
 
 %%% open an empty JSON file
 global fileID
-fileID = fopen('test.json','wt');
+fileID = fopen('generatedJSON.json','wt');
 
 %%% write the root class
 fprintf(fileID, '{\n"name": "root", \n"children": [\n');
