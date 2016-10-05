@@ -4,6 +4,6 @@ Generate JSON and XML file from a MATLAB cell array. Format of JSON compatible w
 ### How to use
 Uses a MATLAB string cell array, where columns are hierarchical levels and rows are different classes/samples. Last column represents the child nodes/classes i.e. the classes at the bottom-most hierarchy level. 
 
-Function takes this cell array as an input argument and generates a JSON or XML file in the same directory. 
+Function takes this cell array as an input argument and generates a JSON (createJSON.m) or XML (createXML.m) file in the same directory. 
 
 More details are provided on http://www.dietergalea.com/vis-hierarchical-trees/
